@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "NearTagBLE",
+    "slug": "neartagble",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.coolhatena.neartagble"
+    },
+    "plugins": [
+      "react-native-ble-plx"
+    ]
+  },
+  "ios": {
+    "supportsTablet": true
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#ffffff"
+    },
+    "edgeToEdgeEnabled": true
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  }
+}
