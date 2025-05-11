@@ -17,6 +17,7 @@ export default function App() {
           PermissionsAndroid.PERMISSIONS.BLUETOOTH_CONNECT,
           PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
         ]);
+        // TODO: There could be some other acceptance status different than 'granted'
         if (
           granted['android.permission.BLUETOOTH_SCAN'] !== 'granted' ||
           granted['android.permission.ACCESS_FINE_LOCATION'] !== 'granted' ||
